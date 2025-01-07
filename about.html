@@ -20,11 +20,9 @@
                 <img src="img/logo.svg" alt="">
             </a>
             <ul class="menu">
-                <li class="menu-item"><a href="">About Us</a></li>
-                <li class="menu-item"><a href="">Careers</a></li>
-                <li class="menu-item"><a href="">Partners</a></li>
-                <li class="menu-item"><a href="">Contact Us</a></li>
-                <li class="menu-item"><a href="">Blog</a></li>
+                <li class="menu-item"><a href="contacts.html">Contact Us</a></li>
+                <li class="menu-item"><a href="about.html">About Us</a></li>
+                <li class="menu-item"><a href="blog.html">Blog</a></li>
             </ul>
             <div class="header__group">
                 <a href="" download="" class="header__btn btn btn-blue">
@@ -112,21 +110,30 @@
 			<section class="connection">
 				<div class="container">
 					<div class="connection__inner">
-						<h2 class="connection__title h2">Subscribe Now for Get Special Features!</h2>
-						<div class="connection__subtitle subtitle">Let's subscribe with us and find the fun.</div>
-						<form class="form">
-							<div class="form-wrap">
+						<div class="connection__wrap">
+							<h2 class="connection__title h2">Subscribe Now for Get Special Features!</h2>
+							<div class="connection__subtitle subtitle">Write to us and we will answer you as soon as possible!</div>
+							<form class="form" onsubmit="return false;">
 								<div class="form-group">
 									<input type="text" placeholder="Name">
 								</div>
 								<div class="form-group">
 									<input type="email" placeholder="Email">
 								</div>
+								<button class="form-btn btn btn-blue">
+									<span>Send</span>
+								</button>
+								<div class="form-group form-group--big">
+									<textarea placeholder="Message"></textarea>
+								</div>
+							</form>
+						</div>
+						<div class="form-modal">
+							<div class="form-modal__icon">
+								<img src="img/form-modal__icon.svg" alt="">
 							</div>
-							<button class="form-btn btn btn-blue">
-								<span>Send</span>
-							</button>
-						</form>
+							<h2 class="form-modal__title h2">Thank you for subscribing</h2>
+						</div>
 						<span class="circle"></span>
 						<span class="circle2"></span>
 					</div>
@@ -140,11 +147,9 @@
                 <img src="img/logo.svg" alt="">
             </a>
             <ul class="menu">
-                <li class="menu-item"><a href="">About Us</a></li>
-                <li class="menu-item"><a href="">Careers</a></li>
-                <li class="menu-item"><a href="">Partners</a></li>
-                <li class="menu-item"><a href="">Contact Us</a></li>
-                <li class="menu-item"><a href="">Blog</a></li>
+                <li class="menu-item"><a href="contacts.html">Contact Us</a></li>
+                <li class="menu-item"><a href="about.html">About Us</a></li>
+                <li class="menu-item"><a href="blog.html">Blog</a></li>
                 <li class="menu-item"><a href="сookie-policy.html">Cookie Policy</a></li>
                 <li class="menu-item"><a href="privacy-policy.html">Police priveleges</a></li>
                 <li class="menu-item"><a href="terms-conditions.html">Terms and Conditions</a></li>
@@ -155,6 +160,8 @@
 
 	</div>
 	<script src="js/libs.min.js"></script>
+<script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.js"></script>
 <script src="js/main.min.js"></script>
 
 </body>
